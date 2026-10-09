@@ -46,7 +46,7 @@ jobs:
           name: hospital-risk-ml-artifacts
           path: |
             hospital_risk_model_missing.pkl
-            metrics.json
-            hospital_data.csv
+            metrics_missing.json
+            hospital_data_missing.csv
           if-no-files-found: error
           retention-days: 7
